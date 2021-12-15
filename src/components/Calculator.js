@@ -31,13 +31,13 @@ const Calculator = () => {
       </div>
       <div className="btn-container">
         <button onClick={clear} className="btn" id="clear">
-          c
+          Clear
         </button>
-        <button onClick={backspace} className="btn">
+        <button onClick={backspace} className="btn" id="back">
           x
         </button>
 
-        <button name="%" onClick={handleClick} className="btn">
+        <button name="%" onClick={handleClick} className="btn" id="div">
           %
         </button>
         <button name="7" onClick={handleClick} className="btn">
@@ -49,7 +49,7 @@ const Calculator = () => {
         <button name="9" onClick={handleClick} className="btn">
           9
         </button>
-        <button name="*" onClick={handleClick} className="btn">
+        <button name="*" onClick={handleClick} className="btn" id="mul">
           *
         </button>
         <button name="4" onClick={handleClick} className="btn">
@@ -61,7 +61,7 @@ const Calculator = () => {
         <button name="6" onClick={handleClick} className="btn">
           6
         </button>
-        <button name="-" onClick={handleClick} className="btn">
+        <button name="-" onClick={handleClick} className="btn" id="sub">
           -
         </button>
         <button name="1" onClick={handleClick} className="btn">
@@ -73,13 +73,13 @@ const Calculator = () => {
         <button name="3" onClick={handleClick} className="btn">
           3
         </button>
-        <button name="+" onClick={handleClick} className="btn">
+        <button name="+" onClick={handleClick} className="btn" id="add">
           +
         </button>
         <button name="0" onClick={handleClick} className="btn">
           0
         </button>
-        <button name="." onClick={handleClick} className="btn">
+        <button name="." onClick={handleClick} className="btn" id="dot">
           .
         </button>
 
